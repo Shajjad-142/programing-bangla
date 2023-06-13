@@ -1,0 +1,98 @@
+//round,ceil,floor,setprecision;
+
+
+/*
+round();
+যখন  round ফাংশন use করা হয় তখন দশমিক এর পরে যদি ৫ এর কম থাকে তাহলে যেই সংখ্যা থাকে তাই প্রিন্ট করবে অথবা যদি দশমিক এর পর যদি ৫ অথবা ৫ এর বড় সংখ্যা থাকে তাহলে   যেই সংখ্যা থাকে তার সাথে ১ যোগ করে  প্রিন্ট করবে।
+
+syntex:--  double x;   cin>>x;   cout<<round(x);
+ইনপুটঃ	৫.৩৪৫  
+	৫.৫৬৭
+আউটপুটঃ
+	৫
+	৬
+*/
+
+
+/*
+ceil();
+যখন দশমিক এর পরে কোনো সংখ্যা থকে তাহলে ceil  ইউজ করলে সেই সংখ্যার সাথে ১ যোগ করে  প্রিন্ট করবে। 
+
+syntex:--  double x;   cin>>x;   cout<<ceil(x);
+ইনপুটঃ	৫.৩৪৫  
+	৫.৫৬৭
+আউটপুটঃ
+	৬
+	৬
+*/
+
+
+/* 
+floor();
+যখন দশমিক এর পরে কোনো সংখ্যা থকে তাহলে   ইউজ করলে যেই সংখ্যা থাকে তাই প্রিন্ট করবে ।
+
+syntex:--  double x;   cin>>x;   cout<<floor(x);
+ইনপুটঃ	৫.৩৪৫  
+	৫.৫৬৭
+আউটপুটঃ
+	৫
+	৫
+*/
+
+
+/*
+setprecision();
+
+setprecision ফাংশন ইউজ করা হয় দশমিক সখ্যার নিয়ন্ত্রন করার জন্য। যদি শুধু setprecision(৩) ইউজ করা হয় তাহলে  মোট ৩ টি সংখ্যা প্রিন্ট করবে। যদি setprecision কে fixed করে দেই তাহলে দশমিক এর পর ৩ টি সংখ্যা প্রিন্ট করবে।
+syntex:-- double x;   cin>>x;   cout<<setprecision(2)<<x;
+ইনপুটঃ	৫.৩৪৫  
+	৫৪.৫৬৭
+আউটপুটঃ
+	৫.৩
+	৫৪
+syntex:-- double x;   cin>>x;   cout<<fixed<<setprecision(2)<<x;
+ইনপুটঃ	৫.৩৪৫  
+	৫৪.৫৬৭
+আউটপুটঃ
+	৫.৩৪
+	৫৪.৫৬
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+/*
+    //Round;
+    double x;   cin>>x;   cout<<round(x);
+/*/
+
+
+/*
+    //ceil;
+    double x;   cin>>x;   cout<<ceil(x);
+/*/
+
+
+/*
+    //floor;
+    double x;   cin>>x;   cout<<floor(x);
+/*/
+
+
+/*
+    //setprecision;
+    //double x;   cin>>x;   cout<<setprecision(2)<<x;
+    //double x;   cin>>x;   cout<<fixed<<setprecision(2)<<x;
+/*/
+
+
+
+
+
+
+    return 0;
+}
+
+
+
+
